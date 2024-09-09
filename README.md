@@ -7,10 +7,9 @@ This repository focuses on text classification using various fine-tuning techniq
 ## Directory Structure
 
 Here is an overview of the directory structure used in this project:
-
+```
 LLM-PEFT-Text-Classification-Repo 
 │
-
 ├── data/
 │     ├── raw/ # Raw data files 
 │     ├── processed/ # Processed data files 
@@ -44,3 +43,4 @@ LLM-PEFT-Text-Classification-Repo
 ├── Dockerfile # Dockerfile for containerization 
 ├── README.md # Project overview and instructions 
 └── .gitignore # Git ignore file
+```
