@@ -52,7 +52,7 @@ To get started with this project:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/LLM-PEFT-Text-Classification-Repo.git
+   git clone https://github.com/arshraj-r/LLM-PEFT-Text-Classification-Repo.git
    cd text-classification-finetuning
 2. **Install Dependencies:**:
    ```bash
