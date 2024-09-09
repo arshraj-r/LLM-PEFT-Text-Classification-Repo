@@ -44,3 +44,29 @@ LLM-PEFT-Text-Classification-Repo
 ├── README.md # Project overview and instructions 
 └── .gitignore # Git ignore file
 ```
+
+
+## Getting Started
+
+To get started with this project:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/text-classification-finetuning.git
+   cd text-classification-finetuning
+2. **Install Dependencies:**:
+   ```bash
+   pip install -r requirements.txt
+3. **Configure the Environment:**: Update the config.yaml file with the desired model parameters and training settings.
+4. **Training Models:** : Run the training script:
+   ```bash
+   python scripts/train.py --model_name <model_name> --num_train_epochs <epochs> --batch_size <batch_size> --warmup_steps <steps>
+5. **Evaluating Models:** : Run the evaluation script:
+   ```bash
+   python scripts/evaluate.py --model_name <model_name>
+6. **Performing Inference:**:  Run the inference script:
+   ```bash
+   python scripts/infer.py --model_name <model_name>
+7. **Deploying Models:** : Follow the instructions in the deployment/ directory for deploying the models using Streamlit or Gradio.
+
+
